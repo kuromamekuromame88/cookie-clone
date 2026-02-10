@@ -3044,7 +3044,7 @@ MOBILE
 }
 
 #sectionLeft{
-  touch-action: manipulation;
+  touch-action: manipulation !important;
 }
 
 .mobile .separatorLeft,.mobile .separatorRight
