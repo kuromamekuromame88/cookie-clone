@@ -3043,10 +3043,6 @@ MOBILE
 	display:none;
 }
 
-#sectionLeft{
-  touch-action: manipulation !important;
-}
-
 .mobile .separatorLeft,.mobile .separatorRight
 {display:none;}
 
