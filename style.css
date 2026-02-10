@@ -3041,6 +3041,8 @@ MOBILE
 	right:0px;
 	bottom:64px;
 	display:none;
+
+    touch-action: manipulation;
 }
 .mobile .separatorLeft,.mobile .separatorRight
 {display:none;}
