@@ -1975,7 +1975,7 @@ Game.Launch=function()
 		=======================================================================================*/
 		Game.CheckUpdates=function()
 		{
-			ajax('http://natto0wtr.php.xdomain.jp/server.php?q=checkupdate',Game.CheckUpdatesResponse);
+			//ajax('http://natto0wtr.php.xdomain.jp/server.php?q=checkupdate',Game.CheckUpdatesResponse);
 		}
 		Game.CheckUpdatesResponse=function(response)
 		{
@@ -2010,7 +2010,7 @@ Game.Launch=function()
 		
 		Game.GrabData=function()
 		{
-			ajax('/patreon/grab.php',Game.GrabDataResponse);
+			//ajax('/patreon/grab.php',Game.GrabDataResponse);
 		}
 		Game.GrabDataResponse=function(response)
 		{
