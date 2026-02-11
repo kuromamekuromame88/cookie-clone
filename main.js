@@ -14621,9 +14621,9 @@ window.onload=function()
 	
 	if (!Game.ready)
 	{
-		if (top!=self) Game.ErrorFrame();
+		/*if (top!=self) Game.ErrorFrame(); //ドメインチェックを無効化
 		else
-		{
+		{*/
 			console.log('[=== '+choose([
 				'お、こんにちは!',
 				'やあ、調子どう',
@@ -14634,6 +14634,6 @@ window.onload=function()
 			Game.Load();
 			//try {Game.Load();}
 			//catch(err) {console.log('ERROR : '+err.message);}
-		}
+		//}
 	}
 };
